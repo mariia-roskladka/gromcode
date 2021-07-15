@@ -1,5 +1,5 @@
 * {
-    color: green;
+    background-color: green;
 }
 
 li {
@@ -7,7 +7,7 @@ li {
 }
 
 .page-header {
-    color: orange;
+    background-color: orange;
 }
 
 #best {
