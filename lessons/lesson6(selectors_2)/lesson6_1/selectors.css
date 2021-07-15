@@ -1,0 +1,28 @@
+li {
+    margin-bottom: 16px;
+}
+
+[target="_blank"] {
+    border: 2px solid black;
+}
+
+a[href^="broken"] {
+    border: 2px solid red;
+}
+
+a[href$=".com"] {
+    margin-left: 50px;
+}
+
+a[href*="en"],
+a[href*="en-"] {
+    font-size: 10px;
+}
+
+a[href*="www"] {
+    color: green;
+}
+
+a[href~="popular"] {
+    font-size: 24px;
+}
