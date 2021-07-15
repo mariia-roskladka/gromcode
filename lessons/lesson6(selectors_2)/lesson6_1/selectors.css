@@ -23,6 +23,6 @@ a[href*="www"] {
     color: green;
 }
 
-a[href~="popular"] {
+a[title~="popular"] {
     font-size: 24px;
 }
