@@ -16,7 +16,7 @@ section.to-be-learned code {
     background-color: green;
 }
 
-#special1~li {
+#special1~li>h4 {
     border: 2px solid blue;
 }
 
