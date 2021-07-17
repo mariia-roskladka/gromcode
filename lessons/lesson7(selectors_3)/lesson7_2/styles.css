@@ -8,14 +8,18 @@ ul>li:last-of-type span {
     background-color: black;
 }
 
-li {
+ul>li {
     margin-bottom: 16px;
 }
 
 li:nth-child(even) {
-    margin-left: 16px;
+    padding-left: 16px;
 }
 
-div>p:nth-child(odd) {
+.paragraphs>p:nth-child(1) {
+    background-color: grey;
+}
+
+.paragraphs>p:nth-child(4) {
     background-color: grey;
 }
