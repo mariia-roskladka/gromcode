@@ -1,0 +1,15 @@
+.rectangle {
+    box-sizing: content-box;
+    border-bottom: 10px dashed burlywood;
+    border-top: 10px solid firebrick;
+    border-left: 20px dashed aqua;
+    border-right: 20px solid chartreuse;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 420px;
+    height: 140px;
+    background-color: bisque;
+}
