@@ -47,14 +47,14 @@ div {
 
 .relative-parent {
     position: relative;
-    padding-bottom: 20px;
-    padding-right: 50px;
+    margin-bottom: 20px;
+    margin-right: 50px;
 }
 
 .absolute-parent {
     position: absolute;
-    margin-bottom: 20px;
-    margin-right: 50px;
+    padding-bottom: 20px;
+    padding-right: 50px;
 }
 
 .fixed-parent {
