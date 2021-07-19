@@ -53,7 +53,7 @@ div {
 
 .absolute-parent {
     position: absolute;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     padding-right: 50px;
 }
 
