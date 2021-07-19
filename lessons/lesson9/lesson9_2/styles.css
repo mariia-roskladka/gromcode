@@ -1,3 +1,22 @@
 .container {
-    box-sizing: 50%;
+    float: left;
+    width: 50%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.red {
+    background-color: red;
+    float: right;
+}
+
+.green {
+    background-color: green;
+    float: left;
+}
+
+.footer {
+    clear: both;
 }
