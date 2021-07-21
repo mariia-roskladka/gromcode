@@ -1,0 +1,73 @@
+header {
+    height: 40px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    background-color: pink;
+}
+
+section {
+    flex-grow: 1;
+}
+
+aside {
+    width: 200px;
+    background-color: gray;
+}
+
+aside>h2 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.aside__item {
+    line-height: 40px;
+}
+
+section {
+    display: flex;
+}
+
+section>h2 {
+    margin: auto;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul>li {
+    list-style: none;
+    margin: 0;
+    padding-left: 16px;
+}
+
+footer {
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: green;
+}
+
+footer>span {
+    margin: auto;
+}

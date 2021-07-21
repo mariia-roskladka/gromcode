@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    height: 300px;
+    width: 10%;
+    flex-grow: 1;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.block_green {
+    background-color: green;
+}
+
+.block_red {
+    background-color: red;
+}
+
+.block_blue {
+    background-color: blue;
+}
+
+.block_yellow {
+    background-color: yellow;
+}
+
+.block_black {
+    background-color: black;
+}
