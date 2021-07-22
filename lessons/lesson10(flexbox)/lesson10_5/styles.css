@@ -16,7 +16,7 @@ main {
     margin: 8px;
     padding: 16px;
     background-color: bisque;
-    min-width: 300px;
+    /* min-width: 300px; */
     flex-basis: 300px;
     flex: 1 0 300px;
     flex-grow: 1;
