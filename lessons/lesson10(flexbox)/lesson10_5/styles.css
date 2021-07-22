@@ -19,4 +19,5 @@ main {
     min-width: 300px;
     flex-basis: 300px;
     flex: 1 0 300ox;
+    flex-grow: 1;
 }
