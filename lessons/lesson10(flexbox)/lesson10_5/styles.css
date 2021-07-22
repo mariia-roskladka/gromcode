@@ -18,6 +18,6 @@ main {
     background-color: bisque;
     min-width: 300px;
     flex-basis: 300px;
-    flex: 1 0 300ox;
+    flex: 1 0 300px;
     flex-grow: 1;
 }
