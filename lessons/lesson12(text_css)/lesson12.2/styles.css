@@ -2,7 +2,7 @@ body {
     font-family: Verdana;
 }
 
-header:h1 {
+header>h1 {
     margin: 0 auto;
     font-size: 74px;
     max-width: 50vw;
