@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <div class="form-control">
+            <input type="text" name="primaryLanguage" disabled value="HTML" />
+        </div>
+        <div class="form-control">
+            <input type="checkbox" name="agree" />
+        </div>
+        <div class="form-control">
+            <input type="checkbox" checked name="like" />
+        </div>
+        <div class="fav">
+            <input type="color" name="favouriteColor" value="#ff7f50">
+        </div>
+        <div class="date">
+            <input type="date" name="birthDate" value="2021-02-01">
+        </div>
+        <div class="date">
+            <input type="datetime-local" name="birthTime" value="2024-04-10T13:02">
+        </div>
+        <div class="email">
+            <input type="email" name="email" placeholder="example@domain.com">
+        </div>
+        <div class="avatar">
+            <input type="file" name="avatar">
+        </div>
+        <div class="month">
+            <input type="month" name="startLearning" value="2020-01">
+        </div>
+        <div class="number">
+            <input type="number" name="favouriteNumber" value="17">
+        </div>
+        <div class="form-control">
+            <textarea name="story" placeholder="A long time ago..."></textarea>
+        </div>
+        <div class="password">
+            <input type="password" value="secret">
+        </div>
+        <div class="languages">
+            <input type="radio" value="html" name="html" />
+            <label for="html">HTML</label>
+            <input type="radio" name="css" value="css" />
+            <label for="css">CSS</label>
+            <input type="radio" name="js" value=javascript />
+            <label for="js">JavaScript</label>
+        </div>
+        <div class="range">
+            <input type="range" value="30">
+        </div>
+        <div class="select">
+            <select name="framework" value="jQuery">
+            </select>
+        </div>
+
+        <div class="form-control">
+            <button type="submit">Save</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
