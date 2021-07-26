@@ -14,3 +14,11 @@ input {
 textarea {
     margin: 8px auto 0;
 }
+
+select {
+    margin: 8px auto 0;
+}
+
+button {
+    margin: 8px auto 0;
+}
