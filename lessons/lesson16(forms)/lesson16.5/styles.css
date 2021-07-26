@@ -3,12 +3,12 @@
 }
 
 form {
-    margin: 32px auto 0;
-    margin-left: 32px;
+    margin: 32px;
+    /* margin-left: 32px; */
 }
 
 div {
-    margin: 8px auto 0;
+    margin: 8px;
 }
 
 
