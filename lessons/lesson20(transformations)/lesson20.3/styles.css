@@ -1,55 +1,63 @@
-* {
+[Forwarded from Dead Inside] * {
     box-sizing: border-box;
 }
 
 .container {
     display: flex;
     height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .spinner {
-    text-transform: uppercase;
-    font-size: 16px;
-    margin: auto;
-    font-family: monospace;
-    height: 50px;
-    width: 50px;
-    border: 4px lightgrey;
-    border-top-color: black;
-    margin-bottom: 8px;
-    border-radius: 50%;
-}
-
-.spinner-text {
-    animation: blinkin 2s infinite linear;
-    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .circle {
-    font-family: monospace;
-    height: 50px;
     width: 50px;
-    border: 4px lightgrey;
-    border-top-color: black;
-    margin-bottom: 8px;
+    height: 50px;
+    border: 4px solid lightgray;
+    border-top: 4px solid black;
     border-radius: 50%;
-    animation: blinkin 2s infinite linear;
+    animation: rotation 2s infinite linear;
 }
 
-@keyframes blinkin {
+.spinner-text {
+    font-family: monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 8px;
+    animation: blinking 2s infinite linear;
+}
+
+@keyframes blinking {
     0% {
         opacity: 0;
-        /* transition-property: opacity;
-        transition-duration: 2s; */
     }
     50% {
         opacity: 1;
-        /* transition-property: opacity;
-        transition-duration: 2s; */
     }
     100% {
         opacity: 0;
-        /* transition-property: opacity;
-        transition-duration: 2s; */
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
     }
 }
