@@ -17,11 +17,11 @@
     font-family: monospace;
     height: 50px;
     width: 50px;
-    border: 4px;
-    border-color: lightgrey;
+    border: 4px lightgrey;
     border-top-color: black;
     margin-bottom: 8px;
-    animation: blinkin 2s ease-in-out;
+    border-radius: 50%;
+    animation: blinkin 2s infinite linear;
 }
 
 @keyframes blinkin {
