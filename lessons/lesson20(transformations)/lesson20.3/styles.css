@@ -18,7 +18,11 @@
     border-top-color: black;
     margin-bottom: 8px;
     border-radius: 50%;
+}
+
+.spinner-text {
     animation: blinkin 2s infinite linear;
+    font-family: monospace;
 }
 
 .circle {
