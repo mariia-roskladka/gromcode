@@ -16,7 +16,7 @@ header {
     color: white;
     align-items: center;
     background: linear-gradient(60deg, red, orange);
-    padding: 0.5em;
+    padding: 1.25em;
 }
 
 h1 {
@@ -34,10 +34,6 @@ footer>span {
     margin: auto;
 }
 
-.aside>h2 {
-    text-align: center;
-}
-
 .navigation {
     padding: 0.5em;
     width: 20%;
@@ -53,12 +49,6 @@ footer>span {
     padding: 0.5em;
     width: 60%;
     font-size: 1.25em;
-    display: flex;
-    align-items: center;
-}
-
-.nav-list {
-    /* display: flex; */
 }
 
 .nav-list-item {
@@ -88,11 +78,10 @@ footer>span {
     white-space: nowrap;
     text-overflow: ellipsis;
     padding: 0, 0.5em;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .section__header {
-    /* text-align: center; */
     align-items: center;
     margin: auto;
     font-size: 5vw;
