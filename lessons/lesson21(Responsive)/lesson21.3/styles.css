@@ -17,12 +17,12 @@ header {
     margin: auto;
     background: linear-gradient(60deg, red, orange);
     padding: 1.26em;
+    /* вн.отступов в задании не просят, додумалась сама по картинке с примером самого задания */
 }
 
 h1 {
     margin: auto;
     align-items: center;
-    font-size: 32px;
 }
 
 footer {
@@ -65,6 +65,9 @@ footer>span {
 
 .units-list {
     line-height: 1.75em;
+}
+
+.nav-list {
     padding: 0;
 }
 
@@ -78,11 +81,10 @@ footer>span {
 .nav-list-link {
     text-decoration: none;
     color: white;
-    overflow: hidden;
+    /* overflow: hidden;
     white-space: nowrap;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; */
     padding: 0, 0.5em;
-    /* margin: auto; */
 }
 
 .section__header {
@@ -93,5 +95,4 @@ footer>span {
 
 .main {
     display: flex;
-    /* flex-direction: column; */
 }
