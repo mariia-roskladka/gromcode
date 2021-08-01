@@ -41,7 +41,6 @@ footer>span {
 }
 
 .section {
-    display: flex;
     padding: 0.5em;
     width: 60%;
     font-size: 1.25em;
@@ -85,7 +84,8 @@ footer>span {
 }
 
 .section__header {
-    align-items: center;
+    padding: 0;
+    text-align: center;
     margin: auto;
     font-size: 5vw;
     white-space: nowrap;
