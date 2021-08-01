@@ -2,11 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-}
-
 html {
     font-family: Verdana;
     color: #555;
@@ -53,16 +48,17 @@ footer>span {
     width: 20%;
 }
 
-section {
-    display: flex;
-}
-
 .section {
+    display: flex;
     padding: 0.5em;
     width: 60%;
     font-size: 1.25em;
     display: flex;
     align-items: center;
+}
+
+.nav-list {
+    /* display: flex; */
 }
 
 .nav-list-item {
@@ -88,9 +84,11 @@ section {
 .nav-list-link {
     text-decoration: none;
     color: white;
+    overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     padding: 0, 0.5em;
+    margin: auto;
 }
 
 .section__header {
