@@ -40,16 +40,16 @@ footer>span {
     width: 20%;
 }
 
-.news {
-    padding: 0.5em;
-    width: 20%;
-}
-
 .section {
     display: flex;
     padding: 0.5em;
     width: 60%;
     font-size: 1.25em;
+}
+
+.news {
+    padding: 0.5em;
+    width: 20%;
 }
 
 .nav-list-item {
@@ -81,9 +81,6 @@ footer>span {
 .nav-list-link {
     text-decoration: none;
     color: white;
-    /* overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis; */
     padding: 0, 0.5em;
 }
 
@@ -91,6 +88,7 @@ footer>span {
     align-items: center;
     margin: auto;
     font-size: 5vw;
+    white-space: nowrap;
 }
 
 .main {
