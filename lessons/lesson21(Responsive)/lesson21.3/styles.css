@@ -14,7 +14,7 @@ header {
 
 .header {
     color: white;
-    align-items: center;
+    margin: auto;
     background: linear-gradient(60deg, red, orange);
     padding: 1.25em;
 }
@@ -92,5 +92,5 @@ footer>span {
 
 .main {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
 }
