@@ -64,7 +64,7 @@ footer>span {
 }
 
 .units-list {
-    line-height: 1.75em;
+    /* line-height: 1.75em; */
 }
 
 .nav-list {
@@ -72,6 +72,7 @@ footer>span {
 }
 
 .css-units {
+    line-height: 1.75em;
     color: #8b0000;
     background-color: #e5e5e5;
     font-weight: 700;
