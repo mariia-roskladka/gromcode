@@ -16,7 +16,7 @@ header {
     color: white;
     margin: auto;
     background: linear-gradient(60deg, red, orange);
-    padding: 1.26em;
+    padding: 1.25em;
     /* вн.отступов в задании не просят, додумалась сама по картинке с примером самого задания */
 }
 
@@ -75,7 +75,7 @@ footer>span {
     color: #8b0000;
     background-color: #e5e5e5;
     font-weight: 700;
-    font-size: 1.125rem;
+    font-size: 1.125em;
     padding: 0;
 }
 
