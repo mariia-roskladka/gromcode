@@ -68,6 +68,10 @@ footer>span {
     line-height: 1.75em;
 }
 
+.main {
+    font-size: 1.25em;
+}
+
 .nav-list {
     padding: 0;
 }
