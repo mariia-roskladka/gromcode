@@ -20,7 +20,6 @@ body {
     background: linear-gradient(60deg, red, orange);
     justify-content: center;
     align-items: center;
-    /* вн.отступов в задании не просят, додумалась сама по картинке с примером самого задания */
 }
 
 h1 {
