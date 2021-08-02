@@ -29,7 +29,8 @@ footer {
     display: flex;
     padding: 0.5em;
     background-color: #e5e5e5;
-    flex: 0 0 auto;
+    /* flex: 0 0 auto; */
+    flex-direction: column;
 }
 
 footer>span {
