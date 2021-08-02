@@ -8,34 +8,30 @@ html {
     font-size: 16px;
 }
 
-header {
+body {
     display: flex;
+    flex-direction: column;
 }
 
 .header {
     color: white;
-    margin: auto;
+    display: flex;
+    flex: 0 0 auto;
     background: linear-gradient(60deg, red, orange);
-    padding: 1.25em;
+    justify-content: center;
+    align-items: center;
     /* вн.отступов в задании не просят, додумалась сама по картинке с примером самого задания */
 }
 
 h1 {
-    font-size: 2.25em;
-    margin: auto;
     align-items: center;
 }
 
 footer {
-    display: flex;
+    flex: 0 0 auto;
     padding: 0.5em;
     background-color: #e5e5e5;
-    /* flex: 0 0 auto; */
-    flex-direction: column;
-}
-
-footer>span {
-    margin: auto;
+    text-align: center;
 }
 
 .navigation {
@@ -82,8 +78,8 @@ footer>span {
 }
 
 .nav-list-link {
-    color: white;
     text-decoration: none;
+    color: white;
     padding: 0, 0.5em;
 }
 
@@ -96,4 +92,9 @@ footer>span {
 
 .main {
     display: flex;
+    flex: 1 0 auto;
+}
+
+.header {
+    flex: 0 0 auto;
 }
