@@ -43,7 +43,7 @@ body {
     color: white;
     background-color: #808080;
     margin-bottom: 0.5em;
-    height: 2em;
+    line-height: 2em;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
