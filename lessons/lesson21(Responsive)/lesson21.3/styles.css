@@ -42,7 +42,6 @@ body {
 .nav-list-item {
     color: white;
     background-color: #808080;
-    padding: 0.5em;
     margin-bottom: 0.5em;
     height: 2em;
     overflow: hidden;
@@ -55,7 +54,6 @@ body {
 }
 
 .nav-list {
-    display: block;
     padding: 0;
 }
 
