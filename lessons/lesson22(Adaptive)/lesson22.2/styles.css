@@ -14,15 +14,24 @@ span {
     margin: auto;
 }
 
-.nav {
+.navigation {
+    height: 200px;
+    display: flex;
+    flex-grow: 1;
     background-color: #ff7f50;
 }
 
-.product-list {
+.products-list {
+    height: 200px;
+    display: flex;
+    flex-grow: 1;
     background-color: #006400;
 }
 
 .news {
+    height: 200px;
+    display: flex;
+    flex-grow: 1;
     background-color: #0ff;
 }
 
