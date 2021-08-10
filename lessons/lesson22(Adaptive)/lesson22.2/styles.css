@@ -2,34 +2,45 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Verdana";
-}
-
 span {
-    text-transform: lowercase;
-    padding: 8px;
-    background-color: #faebd7;
+    font-family: Verdana;
     margin: auto;
+    padding: 8px;
     border-radius: 4px;
-}
-
-.navigation {
-    background-color: #ff7f50;
-}
-
-.productList {
-    background-color: #006400;
+    background-color: #faebd7;
+    text-transform: lowercase;
 }
 
 .news {
     background-color: #0ff;
 }
 
-.block {
+.navigation,
+.products-list,
+.news {
     height: 200px;
     display: flex;
     flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation {
+    background-color: #ff7f50;
+    height: 200px;
+}
+
+.products-list {
+    background-color: #006400;
+    height: 200px;
 }
 
 @media screen and (min-width: 600px) and (max-width: 899px) {
