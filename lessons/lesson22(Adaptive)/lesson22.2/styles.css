@@ -23,7 +23,7 @@ span {
 .navigation {
     display: flex;
     background-color: #ff7f50;
-    height: 200px;
+    min-height: 200px;
     flex: 1;
 }
 
