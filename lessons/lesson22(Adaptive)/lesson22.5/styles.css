@@ -81,8 +81,8 @@ footer {
     padding: 0 0.5em;
     display: block;
     text-decoration: none;
-    color: white;
     overflow: hidden;
+    color: white;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
