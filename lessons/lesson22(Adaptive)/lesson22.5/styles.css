@@ -72,9 +72,9 @@ footer {
     display: flex;
     align-items: center;
     background-color: #808080;
-    color: #fff;
-    height: 2em;
+    color: white;
     margin-bottom: 0.5em;
+    height: 2em;
 }
 
 .nav-list-link {
