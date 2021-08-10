@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #c47;
+    margin: 16px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+@media screen and (max-width: 599px) {
+    .square {
+        background-color: #ff7f50;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .square {
+        background-color: #8a2be2;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+    .square {
+        background-color: #a61;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .square .square {
+        background-color: #c47;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .square {
+        margin: 8px;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+}
