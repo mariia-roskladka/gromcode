@@ -1,0 +1,156 @@
+.footer {
+    display: flex;
+    margin: auto;
+}
+
+.footer_logo {
+    display: flex;
+    margin: auto;
+    width: 320px;
+}
+
+.logo__text_footer {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 20px;
+    width: 290px;
+    height: 51px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo__name_footer {
+    font-size: 20px;
+    font-weight: 700;
+    /* align-items: center; */
+    line-height: 25px;
+}
+
+.logo__description_footer {
+    font-size: 18px;
+    font-weight: 400;
+    /* align-items: center; */
+    line-height: 25px;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.logo__image_footer {
+    display: flex;
+    /* margin: auto; */
+    padding-bottom: 20px;
+    margin-left: 130px;
+    margin-right: 130px;
+    width: 60px;
+    height: 60px;
+}
+
+.about-company {
+    margin-top: 44px;
+}
+
+.additional-nav {
+    margin-top: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* display: flex; */
+}
+
+.additional-nav__column {
+    margin-right: 29px;
+}
+
+.footer-links {
+    /* width: 320px;
+    display: flex;
+    margin: auto; */
+}
+
+.nav-links__title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #2b292d;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.nav-links__list {
+    font-size: 18px;
+    line-height: 30px;
+    list-style-type: none;
+    color: rgba(43, 41, 45, 0.6);
+    margin: 0;
+    padding: 0;
+    margin-top: 18px;
+}
+
+.nav-links {
+    width: 265px;
+    height: 136px;
+    margin-left: 15px;
+    margin-right: 40px;
+}
+
+.footer-nav {
+    width: 320px;
+    margin: 0 auto;
+    height: 338px;
+    /* display: flex; */
+}
+
+.footer-links {
+    /* font-size: 14px; */
+    width: 180px;
+    height: 22px;
+    margin-left: 15px;
+}
+
+.footer__line {
+    width: 100%;
+    border-top: 1px solid #2b292d;
+    opacity: 0.1;
+    margin: 0;
+}
+
+.downloads {
+    margin-top: 25px;
+}
+
+.downloads__app {
+    margin-right: 10px;
+    margin-left: 30px;
+    width: 135px;
+    height: 40px;
+}
+
+.downloads__google {
+    margin-right: 29px;
+    margin-left: 30px;
+    width: 135px;
+    height: 40px;
+}
+
+.footer-description {
+    line-height: 26px;
+    font-size: 18px;
+    width: 360px;
+    margin-top: 26px;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.terms {}
+
+.terms__items {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(43, 41, 45, 0.6);
+    /* margin-right: 22px; */
+}
+
+.social-links__item {
+    margin-left: 20px;
+}
+
+.social-links {
+    margin: auto;
+}
