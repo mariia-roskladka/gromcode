@@ -1,6 +1,7 @@
 .footer {
     display: flex;
-    margin: auto;
+    margin-top: auto;
+    flex-direction: column;
 }
 
 .footer_logo {
@@ -92,10 +93,9 @@
 }
 
 .footer-nav {
-    width: 320px;
-    margin: 0 auto;
-    height: 338px;
-    /* display: flex; */
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
 }
 
 .footer-links {
